@@ -4,6 +4,23 @@
 * @Last Modified by:   TomChen
 * @Last Modified time: 2018-11-15 20:47:50
 */
+
+/*
+*首页共同样式
+*/
+
+.col1{
+	width: 234px;
+	float: left;
+}
+.col2{
+	width: 978px;
+	float: left;
+	margin-left: 14px;
+}
+/*
+*顶部样式
+*/
 .top{
 	height: 40px;
 	background: #333;
@@ -211,6 +228,7 @@
 .home .banner{
 	position: relative;
 	height: 460px;
+	margin-bottom: 14px;
 }
 .home .banner .cart{
 	position: absolute;
@@ -293,6 +311,33 @@
 .home .banner .carousel .carousel-btn li:hover{
 	border-color: #979590;
 	background: #fcf9f0;
+}
+.home .hot{
+	margin-bottom: 25px;
+}
+.home .hot .hot-channel{
+	height: 170px;
+	background: #5f5750;
+}
+.home .hot .hot-channel .hot-channel-item{
+	float: left;
+	width: 78px;
+	height: 85px;
+	padding-top: 20px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.home .hot .hot-channel .hot-channel-item i{
+	display: block;
+	font-size: 26px;
+}
+.home .hot .hot-channel .right-line:after{
+	display: block;
+	content: ""
+}
+.home .hot .hot-promo{
+	height: 170px;
+	background: blue;
 }
 .main{
 	height: 2058px;
